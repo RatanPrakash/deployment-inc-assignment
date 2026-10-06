@@ -1,0 +1,22 @@
+problem: OP-06
+handle: RatanPrakash
+repo: https://github.com/RatanPrakash/op06-triage
+commit: 831bae5e0d8944d2d292ff13c603f2257f5b9b00
+repo_visibility: private
+leaderboard: false
+season: 1
+pins_ack: true
+models_ack: true
+claimed:
+  intent_accuracy: 0.7083
+  macro_f1: 0.6813
+  action_accuracy: 0.8243
+  noisy_accuracy: 0.7967
+  schema_valid_pct: 100.0
+  top70_error_ratio: 0.3603
+  cost_per_message_usd: 0.0
+  latency_p95_s: 0.00963
+spend:
+  results_usd: 0.0
+  compute_usd: 0.0
+hardware: "CPU laptop; no GPU"

@@ -1,0 +1,9 @@
+fit 17111 rows, inner holdout 2889 rows
+{"exp": "exp01", "config": "full", "kwargs": {}, "split": "inner_holdout", "intent_acc": 0.7106, "action_acc": 0.8152, "macro_f1": 0.7025, "top70_ratio": 0.4464, "mean_conf": 0.8287, "fit_seconds": 99.2}
+{"exp": "exp01", "config": "no_struct", "kwargs": {"feat_cfg": {"struct": false}}, "split": "inner_holdout", "intent_acc": 0.7144, "action_acc": 0.7677, "macro_f1": 0.7167, "top70_ratio": 0.4488, "mean_conf": 0.791, "fit_seconds": 59.2}
+{"exp": "exp01", "config": "no_cust_char", "kwargs": {"feat_cfg": {"cust_char": false}}, "split": "inner_holdout", "intent_acc": 0.6909, "action_acc": 0.8107, "macro_f1": 0.6388, "top70_ratio": 0.4075, "mean_conf": 0.8248, "fit_seconds": 55.5}
+{"exp": "exp01", "config": "no_agent", "kwargs": {"feat_cfg": {"agent_word": false}}, "split": "inner_holdout", "intent_acc": 0.713, "action_acc": 0.8086, "macro_f1": 0.7051, "top70_ratio": 0.3973, "mean_conf": 0.8182, "fit_seconds": 139.4}
+{"exp": "exp01", "config": "no_ctx_word", "kwargs": {"feat_cfg": {"ctx_word": false}}, "split": "inner_holdout", "intent_acc": 0.6836, "action_acc": 0.8006, "macro_f1": 0.665, "top70_ratio": 0.4115, "mean_conf": 0.818, "fit_seconds": 88.6}
+{"exp": "exp01", "config": "plus_ctx_char", "kwargs": {"feat_cfg": {"ctx_char": true}}, "split": "inner_holdout", "intent_acc": 0.7203, "action_acc": 0.8169, "macro_f1": 0.7115, "top70_ratio": 0.3889, "mean_conf": 0.8325, "fit_seconds": 128.0}
+{"exp": "exp01", "config": "C_0.2", "kwargs": {"C_intent": 0.2, "C_action": 0.2}, "split": "inner_holdout", "intent_acc": 0.7155, "action_acc": 0.8162, "macro_f1": 0.707, "top70_ratio": 0.3907, "mean_conf": 0.8304, "fit_seconds": 57.8}
+{"exp": "exp01", "config": "C_1.0", "kwargs": {"C_intent": 1.0, "C_action": 1.0}, "split": "inner_holdout", "intent_acc": 0.7092, "action_acc": 0.812, "macro_f1": 0.6981, "top70_ratio": 0.4529, "mean_conf": 0.8254, "fit_seconds": 75.5}
